@@ -1,0 +1,8 @@
+2025-09-04 19:42:55,441 - battery_passport - INFO - Initializing Battery Parameter Estimator
+2025-09-04 19:42:55,445 - battery_passport - INFO - Experiment directory: D:\Project\Battery ANN\Battery_Passport_System\results\battery_parameter_estimation_20250904_194255
+2025-09-04 19:42:55,447 - battery_passport - INFO - Loading data from D:\Project\Battery ANN\Battery_Passport_System\data\processed\battery_data.csv
+2025-09-04 19:42:56,215 - battery_passport - INFO - Loaded dataset with shape: (299997, 15)
+2025-09-04 19:42:56,583 - battery_passport - INFO - Data split - Train: 209997, Val: 44999, Test: 45001
+2025-09-04 19:42:56,584 - battery_passport - INFO - Initializing neural network
+2025-09-04 19:42:56,586 - battery_passport - INFO - Neural network architecture: [14, 64, 64, 64, 8]
+2025-09-04 19:42:56,587 - battery_passport - INFO - Starting neural network training

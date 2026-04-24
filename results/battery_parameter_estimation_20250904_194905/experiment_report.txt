@@ -1,0 +1,43 @@
+Battery Passport System - Experiment Report
+==================================================
+
+Experiment: battery_parameter_estimation
+Date: 2025-09-04 20:31:53
+Version: 1.0.0
+
+Data Information:
+--------------------
+Total samples: 299997
+Training samples: 209997
+Validation samples: 44999
+Test samples: 45001
+
+Neural Network Results:
+-------------------------
+Test RMSE: 5.376213
+Test MAE: 5.375527
+Test MAPE: 172.28%
+Test R²: -7135.782743
+
+PSO Optimization Results:
+--------------------------
+Best RMSE: 0.468611
+
+Battery Parameters:
+------------------------------------------------------------
+Parameter  Target          Estimated       Error          
+------------------------------------------------------------
+C1         38000.000000    450000.000000   412000.000000  
+C2         38000.000000    3000.000000     35000.000000   
+R0         0.008200        0.100000        0.091800       
+R1         0.015800        1.013956        0.998156       
+R2         0.015800        10.000000       9.984200       
+gamma1     100.000000      8.000000        92.000000      
+M0         0.002000        3.498395        3.496395       
+M          0.050000        0.100000        0.050000       
+
+Configuration:
+-------------
+Neural Network Architecture: {'input_size': 14, 'hidden_layers': [64, 64, 64], 'output_size': 8, 'activation': 'relu', 'dropout_rate': 0.2}
+Training Configuration: {'epochs': 10, 'batch_size': 32, 'learning_rate': 0.001, 'validation_split': 0.2, 'early_stopping_patience': 15, 'optimizer': 'adam', 'beta1': 0.9, 'beta2': 0.999, 'epsilon': 1e-08}
+PSO Configuration: {'swarm': {'n_particles': 20, 'max_iterations': 50, 'tolerance': 1e-06, 'early_stopping_patience': 20}, 'parameters': {'inertia_weight': 0.729, 'cognitive_weight': 1.49445, 'social_weight': 1.49445, 'velocity_clamp': True, 'velocity_max_factor': 0.2}, 'adaptive': {'adaptive_weights': False, 'w_min': 0.4, 'w_max': 0.9}}

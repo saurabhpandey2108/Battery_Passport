@@ -1,0 +1,19 @@
+2025-09-04 19:49:05,056 - battery_passport - INFO - Initializing Battery Parameter Estimator
+2025-09-04 19:49:05,060 - battery_passport - INFO - Experiment directory: D:\Project\Battery ANN\Battery_Passport_System\results\battery_parameter_estimation_20250904_194905
+2025-09-04 19:49:05,061 - battery_passport - INFO - Loading data from D:\Project\Battery ANN\Battery_Passport_System\data\processed\battery_data.csv
+2025-09-04 19:49:05,513 - battery_passport - INFO - Loaded dataset with shape: (299997, 15)
+2025-09-04 19:49:05,924 - battery_passport - INFO - Data split - Train: 209997, Val: 44999, Test: 45001
+2025-09-04 19:49:05,925 - battery_passport - INFO - Initializing neural network
+2025-09-04 19:49:05,928 - battery_passport - INFO - Neural network architecture: [14, 64, 64, 64, 8]
+2025-09-04 19:49:05,928 - battery_passport - INFO - Starting neural network training
+2025-09-04 19:55:45,873 - battery_passport - INFO - Training completed. Best validation RMSE: 0.581760
+2025-09-04 19:55:45,873 - battery_passport - INFO - Evaluating neural network performance
+2025-09-04 19:55:48,796 - battery_passport - INFO - Test RMSE: 5.376213
+2025-09-04 19:55:48,796 - battery_passport - INFO - Test MAE: 5.375527
+2025-09-04 19:55:48,797 - battery_passport - INFO - Test R²: -7135.782743
+2025-09-04 19:55:48,797 - battery_passport - INFO - Starting PSO optimization
+2025-09-04 20:22:11,328 - battery_passport - INFO - PSO completed. Best RMSE: 0.468611
+2025-09-04 20:22:11,328 - battery_passport - INFO - Generating visualization plots
+2025-09-04 20:31:53,176 - battery_passport - INFO - Saving trained models
+2025-09-04 20:31:53,183 - battery_passport - INFO - Generating experiment report
+2025-09-04 20:31:53,185 - battery_passport - INFO - Report saved to D:\Project\Battery ANN\Battery_Passport_System\results\battery_parameter_estimation_20250904_194905\experiment_report.txt
